@@ -1,0 +1,68 @@
+html {
+    background-color: #fff;
+}
+* {
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+article {
+  margin: auto;
+  max-width: 200em;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+  margin: auto;
+  padding: 5em;
+}
+
+.section-1 {
+  text-align: center;
+  margin: auto;
+  padding-top: 23em;
+  height: 72em;
+  background-color: #009ace;
+}
+
+
+.section-1 img {
+  margin: 0 auto;
+}
+
+
+.section-1 .faded {
+  margin: 0 auto;
+  background-color: #009ace;
+}
+
+.section-1 p {
+  font-size: 1em;
+  font-weight: 550;
+  color: #009ace;
+  margin: auto;
+  padding: 5em;
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+
+.section-2 {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5em;
+  height: 25em;
+
+  article-1 {
+    text-align: center;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 5em;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+}
