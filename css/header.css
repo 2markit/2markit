@@ -1,15 +1,13 @@
 //  Header
 
 .header-fixed {
-  background-color: rgba(255,255,255,.89);
   box-shadow: 0px 0px #ccc;
-  padding: 0px 45px 0px 45px;
+  padding: 0px 0px 0px 0px;
   margin: 100px 0px 0px 0px;
   position: fixed;
-  height: 50px;
+  height: 75px;
   color: #ffffff;
   box-sizing: border-box;
-  top: -100px;
   width: 100%;
   z-index: 1;
 }
@@ -17,45 +15,47 @@
 .logo-img {
   margin: 0px 10px 0px 0px;
   padding: 10px 10px 10px 10px;
-  float: left;
+  /*float: left;*/
   height: 55px;
   line-height: 55px;
 }
 
 .header-fixed .title {
   color: #373D3F;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
   height: 75px;
   line-height: 75px;
 }
 
 .header-fixed a {
-  color: #373D3F;
-  height: 75px;
-  line-height: 75px;
+  color: #009ace;
+  height: 50px;
+  line-height: 50px;
   text-decoration: none;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 /*Logo line*/
 
 .header-fixed h3 {
-  float: left;
+  /*float: left;*/
   height: 48px;
   line-height: 48px;
-  color: #131516;
+  color: #009ace;
   margin: 15px 0px 15px 0px;
   padding: 0px 0px 0px 0px;
-  border-left: solid   #373D3F;
+  border-left: solid   #009ace;
 }
 
 
 .header-fixed h1 {
-  float: left;
+  /*float: left;*/
   font: normal 20px Cookie, Arial, Helvetica, sans-serif;
   height: 75px;
   line-height: 75px;
-  margin: 20px 0px 0px 0px;
-  color: #131516;
+  margin: 0px 0px 0px 0px;
+  color: #009ace;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
@@ -66,7 +66,8 @@
   font: 15px Arial, Helvetica, sans-serif;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  float: right;
+  color: #009ace;
+  /*float: right;*/
 }
 
 .clearfix:after {
@@ -82,16 +83,16 @@
 /*----- Menu Outline -----*/
 .menu-wrap {
   width: 100%;
-  background-color: rgba(255,255,255,.80);
+  /*background-color: rgba(255,255,255,.80);*/
 }
 
-.menuk{
+.menu {
   font: 15px Arial, Helvetica, sans-serif;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
   height: 30px;
   line-height: 30px;
-  float: right;
+  /*float: right;*/
 
 .menu li {
   margin: 0px 0px 0px 0px;
@@ -104,9 +105,9 @@
   transition: all linear 0.15s;
   margin: 0px 0px 0px 0px;
   padding: 0px 10px 5px 10px;
-  color:  #373D3F;
-  height: 30px;
-  line-height: 30px;
+  color:  #009ace;
+  height: 25px;
+  line-height: 25px;
   text-align: center;
   font-size: 12px;
   font-weight: 600;
@@ -123,13 +124,13 @@
 
 .menu li:hover > a, .menu .current-item > a {
   text-decoration: none;
-  background-color: rgba(255,255,255,.90);
+  /*background-color: rgba(255,255,255,.90);*/
 }
 
 
 /*----- Top Level -----*/
 .menu > ul > li {
-  float: left;
+  /*float: left;*/
   display: block;
 }
 
@@ -139,7 +140,7 @@
 }
 
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
-  background-color: rgba(255,255,255,.90);
+  /*background-color: rgba(255,255,255,.90);*/
 }
 
 /*----- Bottom Level -----*/
@@ -160,7 +161,6 @@
   top: 50px;
   visibility: hidden;
   text-align: center;
-  background-color: rgb(255,255,255);
   margin: 0px 0px 0px 0px;
   float: right;
 }
@@ -180,12 +180,12 @@
 }
 
 .sub-menu li a:hover, .sub-menu .current-item a {
-  background-color: rgba(255,255,255,.80);
+  /*background-color: rgba(255,255,255,.80);*/
   text-align: center;
 }
 
 .sub-menu .clean-up:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
   color: white;
@@ -195,7 +195,7 @@
 }
 
 .sub-menu .repair:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
   color: white;
@@ -205,7 +205,7 @@
 }
 
 .sub-menu .pick-up:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
   color: white;
@@ -215,7 +215,7 @@
 }
 
 .sub-menu .in-home:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
   color: white;
@@ -225,7 +225,7 @@
 }
 
 .sub-menu .data:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
   color: white;
@@ -235,7 +235,7 @@
 }
 
 .sub-menu .remote:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
   color: white;
@@ -244,11 +244,17 @@
   transition: opacity linear 0.10s;
 }
 
+
+.section-1.header-fixed .menu-wrap a {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
 .header-fixed nav .services {
   display: block;
   margin: 22.5px 0px 0px 0px;
   padding: 0px 10px 5px 10px;
-  color:  #373D3F;
+  color:  #009ace;
   height: 30px;
   line-height: 30px;
   text-align: center;
@@ -266,9 +272,9 @@
 
 .header-fixed nav .contact {
   display: block;
-  margin: 22.5px 5px 0px 0px;
+  margin: 22.5px 50px 0px 50px;
   padding: 0px 10px 5px 10px;
-  color:  #373D3F;
+  color:  #009ace;
   height: 30px;
   line-height: 30px;
   text-align: center;
@@ -289,13 +295,13 @@
   display: block;
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
-  color:  #373D3F;
+  color:  #009ace;
   height: 30px;
 }
 
 
 .header-fixed nav .services:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   color: white;
   border-radius: 4px;
   margin: 22.5px 0px 0px 0px;
@@ -306,7 +312,7 @@
 }
 
 .header-fixed nav .contact:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   color: white;
   border-radius: 4px;
   margin: 22.5px 5px 0px 0px;
@@ -317,7 +323,7 @@
 }
 
 .phone:hover {
-  background-color: #000075;
+  /*background-color: #000075;*/
   color: white;
   border-radius: 4px;
   height: 40px;
@@ -330,7 +336,7 @@
   display: block;
   padding: 0px 5px 0px 5px;
   margin: 0px 0px 10px 3px;
-  color:  #373D3F;
+  color:  #009ace;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
