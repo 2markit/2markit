@@ -15,6 +15,10 @@ p {
   margin: auto;
 }
 
+body {
+  margin: 0 auto;
+}
+
 
 .logos {
   position:relative;
