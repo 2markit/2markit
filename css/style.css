@@ -1,5 +1,4 @@
 html {
-    background-color: #fff;
 }
 * {
   font-family: 'Quicksand', sans-serif;
@@ -11,40 +10,35 @@ article {
   max-width: 200em;
 }
 
-p {
-  font-size: 1em;
-  text-align: center;
-  margin: auto;
-  padding: 5em;
+
+.logos {
+  position:relative;
+  margin: 0 auto;
+  padding-top: 25em;
+  padding-right: 34em;
+  padding-bottom: 25em;
 }
+
+.logos img {
+  position:absolute;
+  margin: 0 auto;
+}
+
 
 .section-1 {
   text-align: center;
   margin: auto;
-  padding-top: 23em;
   height: 72em;
-  background-color: #009ace;
 }
 
 
-.section-1 img {
-  margin: 0 auto;
-}
-
-
-.section-1 .faded {
-  margin: 0 auto;
-  background-color: #009ace;
-}
-
-.section-1 p {
+.section-1 .blurb {
   font-size: 1em;
   font-weight: 550;
+  max-width: 70em;
   color: #009ace;
   margin: auto;
-  padding: 5em;
-  opacity: 1;
-  transition: 1s opacity;
+  margin-bottom: 0px;
 }
 
 

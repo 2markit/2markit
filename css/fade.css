@@ -1,3 +1,36 @@
+@-webkit-keyframes colorFade {
+    0% {
+        background-color: #009ace;
+    }
+    16% {
+        background-color: #009ace;
+    }
+    80% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+
+
+@keyframes colorFade {
+    0% {
+        background-color: #009ace;
+    }
+    16% {
+        background-color: #009ace;
+    }
+    80% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: #fff;
+    }
+}
+
+
+
 @-webkit-keyframes fadeOut {
     0% {
         opacity: 1;
@@ -5,13 +38,14 @@
     16% {
         opacity: 1;
     }
-    80% {
+    79% {
         opacity: 0;
     }
     100% {
         opacity: 0;
     }
 }
+
 
 
 @keyframes fadeOut {
@@ -21,7 +55,7 @@
     16% {
         opacity: 1;
     }
-    80% {
+    79% {
         opacity: 0;
     }
     100% {
@@ -62,17 +96,15 @@
 }
 
 
-.section-1 {
+.section-1 .logo {
   opacity: 0;
-  -webkit-animation: fadeOut 6s;
+  -webkit-animation: fadeOut 7s;
   animation: fadeOut 6s;
 }
 
-
-.section-1 .logo {
-  opacity: 0;
-  -webkit-animation: fadeOut 6s;
-  animation: fadeOut 6s;
+.section-1 {
+  -webkit-animation: colorFade 7s;
+  animation: colorFade 6s;
 }
 
 .section-1 .fade-logo {
