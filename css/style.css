@@ -10,6 +10,11 @@ article {
   max-width: 200em;
 }
 
+p {
+  max-width: 50em;
+  margin: auto;
+}
+
 
 .logos {
   position:relative;
@@ -27,7 +32,7 @@ article {
 
 .section-1 {
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
   height: 72em;
 }
 
@@ -35,7 +40,7 @@ article {
 .section-1 .blurb {
   font-size: 1em;
   font-weight: 550;
-  max-width: 70em;
+  max-width: 50em;
   color: #009ace;
   margin: auto;
   margin-bottom: 0px;
@@ -47,16 +52,23 @@ article {
   margin: 0 auto;
   padding-top: 5em;
   height: 25em;
+}
 
-  article-1 {
-    text-align: center;
-    margin: 0 auto;
+.section-2 .article-2 {
+  text-align: center;
+  margin: 0 auto;
+}
 
-    h1 {
-      font-size: 5em;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 50px;
-    }
-  }
+.section-2 h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.section-2 p {
+  margin-top: 50px;
+}
+
 }

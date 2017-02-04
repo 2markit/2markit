@@ -109,6 +109,11 @@
 
 .section-1 .fade-logo {
   opacity: 1;
-  -webkit-animation: fadeIn 6s;
-  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 7s;
+  animation: fadeIn 7s;
+}
+.section-1 .blurb {
+  opacity: 1;
+  -webkit-animation: fadeIn 10s;
+  animation: fadeIn 10s;
 }
