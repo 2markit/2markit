@@ -21,17 +21,17 @@ body {
 .logos {
   position:relative;
   display: block;
-  margin: auto;  
+  margin: auto;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
   padding-top: 20em;
   padding-bottom: 25em;
 }
 
 .logos img {
   display: block;
-  margin: auto;  
+  margin: auto;
   margin-left: auto;
   margin-right: auto;
   position: absolute;
@@ -43,6 +43,8 @@ body {
   text-align: center;
   margin: auto;
   height: 72em;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 
