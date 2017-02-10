@@ -21,21 +21,16 @@ body {
 .logos {
   position:relative;
   display: block;
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 20em;
-  padding-bottom: 25em;
+  margin: 0 auto;
+  width: 404px;
+  padding: 20em 0em 0em 0em;
 }
 
 .logos img {
   display: block;
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;;
   position: absolute;
-  height: 20%;
+  height: 120px;
 }
 
 
@@ -54,7 +49,7 @@ body {
   max-width: 50em;
   color: #009ace;
   margin: auto;
-  margin-bottom: 0px;
+  margin-top: 20em;
 }
 
 
