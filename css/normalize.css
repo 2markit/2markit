@@ -432,11 +432,6 @@ body {
 }
 
 
-@media (max-width: 430px) {
-  .header-fixed {
-    display: none;
-  }
-}
 
 
 @media screen and (min-device-width: 275px) and (max-device-width: 385px) {
@@ -445,6 +440,12 @@ body {
   }
   .section-1 .logos img {
     height: 75px;
+  }
+  .section-1 .header-fixed a {
+    font-size: 11px;
+    line-height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   }
 
@@ -456,7 +457,27 @@ body {
   .section-1 .logos img {
     height: 95px;
   }
+  .section-1 .header-fixed a {
+    margin-left: 15px;
+    margin-right: 15px;
   }
+  .section-1 .header-fixed a {
+    font-size: 12px;
+    line-height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  }
+
+
+  @media screen and (min-device-width: 500px) and (max-device-width: 700px) {
+    .section-1 .header-fixed a {
+      font-size: 14px;
+      line-height: 50px;
+      margin-left: 45px;
+      margin-right: 45px;
+    }
+    }
 
 
 @media screen and (min-device-width: 500px) and (max-device-width: 600px) {
