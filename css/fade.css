@@ -114,6 +114,12 @@
 }
 .section-1 .blurb {
   opacity: 1;
-  -webkit-animation: fadeIn 10s;
-  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 13s;
+  animation: fadeIn 13s;
+}
+
+.section-1 .header-fixed {
+  opacity: 1;
+  -webkit-animation: fadeIn 15s;
+  animation: fadeIn 15s;
 }

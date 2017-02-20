@@ -424,3 +424,30 @@ td,
 th {
   padding: 0;
 }
+
+
+body {
+  margin:0;
+  padding:0;
+}
+
+
+@media (max-width: 425px) {
+  .header-fixed {
+  padding: 0px 0px 0px 0px;
+  }
+  .header-fixed .sub-menu {
+    left: 0%;
+  }
+  .header-fixed nav .services:hover {
+    margin: 22.5px 5px 0px 0px;
+    margin-left: 0px;
+  }
+  .header-fixed nav .services {
+    margin: 22.5px 5px 0px 0px;
+    float: left;
+  }
+  .header-fixed nav .contact {
+    display: none;
+  }
+}

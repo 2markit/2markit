@@ -1,6 +1,10 @@
 * {
   font-family: 'Quicksand', sans-serif;
+}
 
+body::-webkit-scrollbar {
+  width: 0;
+  background-color: rgba(128, 172, 74,.80);
 }
 
 article {
@@ -38,8 +42,7 @@ body {
   text-align: center;
   margin: auto;
   height: 72em;
-  padding-left: 35px;
-  padding-right: 35px;
+  z-index: 0;
 }
 
 
@@ -50,6 +53,12 @@ body {
   color: #009ace;
   margin: auto;
   margin-top: 20em;
+}
+
+.section-2 p {
+  font-size: 1em;
+  font-weight: 550;
+  max-width: 50em;
 }
 
 

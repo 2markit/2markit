@@ -1,31 +1,18 @@
-//  Header
+/*Header*/
 
 .header-fixed {
-  box-shadow: 0px 0px #ccc;
-  padding: 0px 0px 0px 0px;
-  margin: 100px 0px 0px 0px;
+  opacity: 0;
+  background-color: #fff;
+  padding: 5px 0px 5px 0px;
+  margin: inherit;
   position: fixed;
-  height: 75px;
+  height: 45px;
   color: #ffffff;
   box-sizing: border-box;
   width: 100%;
   z-index: 1;
 }
 
-.logo-img {
-  margin: 0px 10px 0px 0px;
-  padding: 10px 10px 10px 10px;
-  /*float: left;*/
-  height: 55px;
-  line-height: 55px;
-}
-
-.header-fixed .title {
-  color: #373D3F;
-  margin: 0px 0px 0px 0px;
-  height: 75px;
-  line-height: 75px;
-}
 
 .header-fixed a {
   color: #009ace;
@@ -184,7 +171,7 @@
   text-align: center;
 }
 
-.sub-menu .clean-up:hover {
+.sub-menu .:hover {
   /*background-color: #000075;*/
   padding: 10px 10px 10px 10px;
   width: 300px;
@@ -193,64 +180,13 @@
   text-align: center;
   transition: opacity linear 0.10s;
 }
-
-.sub-menu .repair:hover {
-  /*background-color: #000075;*/
-  padding: 10px 10px 10px 10px;
-  width: 300px;
-  color: white;
-  border-radius: 4px;
-  text-align: center;
-  transition: opacity linear 0.10s;
-}
-
-.sub-menu .pick-up:hover {
-  /*background-color: #000075;*/
-  padding: 10px 10px 10px 10px;
-  width: 300px;
-  color: white;
-  border-radius: 4px;
-  text-align: center;
-  transition: opacity linear 0.10s;
-}
-
-.sub-menu .in-home:hover {
-  /*background-color: #000075;*/
-  padding: 10px 10px 10px 10px;
-  width: 300px;
-  color: white;
-  border-radius: 4px;
-  text-align: center;
-  transition: opacity linear 0.10s;
-}
-
-.sub-menu .data:hover {
-  /*background-color: #000075;*/
-  padding: 10px 10px 10px 10px;
-  width: 300px;
-  color: white;
-  border-radius: 4px;
-  text-align: center;
-  transition: opacity linear 0.10s;
-}
-
-.sub-menu .remote:hover {
-  /*background-color: #000075;*/
-  padding: 10px 10px 10px 10px;
-  width: 300px;
-  color: white;
-  border-radius: 4px;
-  text-align: center;
-  transition: opacity linear 0.10s;
-}
-
 
 .section-1.header-fixed .menu-wrap a {
   margin-left: 75px;
   margin-right: 75px;
 }
 
-.header-fixed nav .services {
+.header-fixed nav .menu-1 {
   display: block;
   margin: 22.5px 0px 0px 0px;
   padding: 0px 10px 5px 10px;
@@ -268,58 +204,6 @@
   border-radius: 4px;
   cursor: pointer;
   box-sizing: border-box;
-}
-
-.header-fixed nav .contact {
-  display: block;
-  margin: 22.5px 50px 0px 50px;
-  padding: 0px 10px 5px 10px;
-  color:  #009ace;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-
-.phone-margin {
-  display: block;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  color:  #009ace;
-  height: 30px;
-}
-
-
-.header-fixed nav .services:hover {
-  /*background-color: #000075;*/
-  color: white;
-  border-radius: 4px;
-  margin: 22.5px 0px 0px 0px;
-  padding: 0px 10px 10px 10px;
-  height: 30px;
-  line-height: 30px;
-  letter-spacing: .1rem;
-}
-
-.header-fixed nav .contact:hover {
-  /*background-color: #000075;*/
-  color: white;
-  border-radius: 4px;
-  margin: 22.5px 5px 0px 0px;
-  padding: 0px 10px 10px 10px;
-  height: 30px;
-  line-height: 30px;
-  letter-spacing: .1rem;
 }
 
 .phone:hover {
