@@ -23,16 +23,16 @@ body {
 
 
 .logos {
-  position:relative;
+  position: relative;
   display: block;
   margin: 0 auto;
   width: 404px;
-  padding: 20em 0em 0em 0em;
+  padding: 300px 0px 0px 0px;
 }
 
 .logos img {
   display: block;
-  margin: auto;;
+  margin: auto;
   position: absolute;
   height: 120px;
 }

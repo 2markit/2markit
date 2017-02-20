@@ -432,22 +432,61 @@ body {
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
   .header-fixed {
-  padding: 0px 0px 0px 0px;
-  }
-  .header-fixed .sub-menu {
-    left: 0%;
-  }
-  .header-fixed nav .services:hover {
-    margin: 22.5px 5px 0px 0px;
-    margin-left: 0px;
-  }
-  .header-fixed nav .services {
-    margin: 22.5px 5px 0px 0px;
-    float: left;
-  }
-  .header-fixed nav .contact {
     display: none;
   }
+}
+
+
+@media screen and (min-device-width: 275px) and (max-device-width: 385px) {
+  .section-1 .logos {
+    width: 250px;
+  }
+  .section-1 .logos img {
+    height: 75px;
+  }
+  }
+
+
+@media screen and (min-device-width: 385px) and (max-device-width: 500px) {
+  .section-1 .logos {
+    width: 320px;
+  }
+  .section-1 .logos img {
+    height: 95px;
+  }
+  }
+
+
+@media screen and (min-device-width: 500px) and (max-device-width: 600px) {
+  .section-1 .logos {
+    width: 350px;
+  }
+  .section-1 .logos img {
+    height: 105px;
+  }
+  }
+
+
+  @media screen and (min-device-width: 1000px) and (max-device-width: 1400px) {
+    .section-1 {
+      height: 40em;
+    }
+  }
+
+@media screen and (min-device-width: 1375px) and (max-device-width: 3840px) {
+  .section-1 .logos {
+    padding: 500px 0px 0px 0px;
+  }
+}
+
+
+@media screen and (min-device-width: 2000px) and (max-device-width: 4000px) {
+    .section-1 {
+      height: 115em;
+    }
+    .section-1 .logos {
+      padding: 550px 0px 0px 0px;
+    }
 }

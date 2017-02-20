@@ -96,6 +96,38 @@
 }
 
 
+@-webkit-keyframes headerFadeIn {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+
+@keyframes headerFadeIn {
+    0% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+
 .section-1 .logo {
   opacity: 0;
   -webkit-animation: fadeOut 7s;
@@ -119,7 +151,7 @@
 }
 
 .section-1 .header-fixed {
-  opacity: 1;
-  -webkit-animation: fadeIn 15s;
-  animation: fadeIn 15s;
+  opacity: 0.9;
+  -webkit-animation: headerFadeIn 15s;
+  animation: headerFadeIn 15s;
 }
