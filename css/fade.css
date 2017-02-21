@@ -152,6 +152,6 @@
 
 .section-1 .header-fixed {
   opacity: 0.9;
-  -webkit-animation: headerFadeIn 15s;
-  animation: headerFadeIn 15s;
+  -webkit-animation: headerFadeIn 13s;
+  animation: headerFadeIn 13s;
 }

@@ -452,10 +452,16 @@ body {
 
 @media screen and (min-device-width: 385px) and (max-device-width: 500px) {
   .section-1 .logos {
+    padding-top: 250px;
     width: 320px;
   }
   .section-1 .logos img {
     height: 95px;
+  }
+  .section-1 .blurb {
+    width: auto;
+    margin-top: 0em;
+
   }
   .section-1 .header-fixed a {
     margin-left: 15px;

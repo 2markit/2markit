@@ -47,12 +47,11 @@ body {
 
 
 .section-1 .blurb {
+  color: #009ace;
+  margin-top: 20em;
   font-size: 1em;
   font-weight: 550;
   max-width: 50em;
-  color: #009ace;
-  margin: auto;
-  margin-top: 20em;
 }
 
 .section-2 p {
